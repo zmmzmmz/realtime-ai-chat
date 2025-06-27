@@ -1,4 +1,9 @@
 {
+  "name": "realtime-ai-chat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zmmzmmz/realtime-ai-chat"
+  },
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -11,6 +16,5 @@
     "prettier": "^3.2.5",
     "turbo": "^2.5.4"
   },
-  "packageManager": "pnpm@8.15.6",
-  "name": "with-vite-react"
+  "packageManager": "pnpm@8.15.6"
 }

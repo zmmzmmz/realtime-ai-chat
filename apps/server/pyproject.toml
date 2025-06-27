@@ -1,0 +1,15 @@
+
+# pyproject.toml (for poetry)
+[tool.poetry]
+name = "realtime-server"
+version = "0.1.0"
+description = "Real-time AI chat server"
+package-mode = false
+
+[tool.poetry.scripts]
+dev = "uvicorn main:app --reload"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"

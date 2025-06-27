@@ -1,0 +1,9 @@
+{
+  "name": "server",
+  "scripts": {
+    "build": "poetry install",
+    "dev": "poetry run uvicorn main:app --reload",
+    "lint": "poetry run black .",
+    "poetry:install": "curl -sSL https://install.python-poetry.org | python - && echo \"$HOME/.local/bin\" >> ~/.bashrc"
+  }
+}
